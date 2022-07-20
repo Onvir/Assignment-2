@@ -1,0 +1,458 @@
+body{
+    
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*-------------------------- 
+   Top Section Container style start 
+   ---------------------------*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.top-section{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.container{
+    width: 1321px;
+    display: flex ;
+    background-color: black;
+    text-align: left;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+.half-width{
+    text-align: left;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    padding: 0 50px;
+}
+.half-width h1{
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    
+    font-weight: 900;
+}
+.half-width p{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    
+}
+.half-width img{
+    padding-top: 60px;
+    width: 100%;
+}
+ .container .half-width a{
+    Width: 187px;
+    Height: 56px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-image: linear-gradient(45deg, red,rgb(92, 13, 13));
+    border-radius: 5px;
+}
+.container .half-width a:hover{
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, rgb(66, 19, 19),rgb(245, 90, 90));
+    
+}
+
+   /* --------------------
+       Mid section Style  
+   ----------------------*/
+
+   .mid-container-section{
+    width: 1321px;
+    display: flex;
+    margin-top: 30px;
+   
+   }
+   .mid-container{
+    display: flex;
+    margin-bottom: 150px;
+   }
+
+.mid-container .button-container{
+    display: flex;
+    width: 312px;
+    height: 312px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+ .mid-container .button-container a{
+    font-size: 20px;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    Width: 187px;
+    Height: 56px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 25px;
+    padding: 5px 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+}
+.mid-container .button-container a:hover{
+    background-image: linear-gradient(45deg, red,rgb(92, 13, 13));
+    cursor: pointer;
+    color: aliceblue;
+}
+.blog-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+   
+}
+.blog{
+    border-radius: 10px;
+    box-shadow: 2px  1px rgba(211, 211, 211, 0.404);
+    margin-left: 5px;
+    padding: 5px;
+}
+.blog img{
+    width: 300px;
+    height: 175px;
+}
+
+.blog .blog-button{
+    margin-top: 10px;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+.blog p span{
+    padding: 10px;
+}
+
+/* -------------------
+   Footer Section Style 
+   --------------------*/
+
+   footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: black;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+   }
+   .footer-text{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+   }
+   hr{
+    width: 100%;
+  background-color: gray;
+   }
+   
+   .footer-link{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   }
+   .footer-link a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+   }
+   .socials .socials-color{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+   }
+
+   /*----------------------- 
+   Upcomig match Style Area 
+   -------------------------- */
+   .match{
+    width: 312px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    padding-left: 15px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(211, 211, 211, 0.438);
+    margin-bottom: 30px;
+   }
+   .match .match-img {
+    height: 70px;
+    display: inline-flex;
+   }
+   .match-img img{
+    width: 100px;
+    padding: 5px;
+    margin: 1px;
+   }
+  
+   /* ----------------------
+   All Group Section Style 
+   -------------------------- */
+
+   .blog-container .all-group img{
+    width: 1000px;
+
+   }
+   .tab-only{
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+   }
+    
+    .tab-only .tab-button a{
+    display: none;
+    color: black;
+    background-color: tomato;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 900;
+    }
+
+    /*---------------------------
+     Resposive Section Style Area 
+     ----------------------------- */
+
+     @media screen and (max-width:667px) {
+        .top-section{
+            margin-bottom: 0;
+        }
+        .container{
+            width: 100%;
+            display: grid;  
+            
+        }
+        
+        .half-width{
+            width: 100%;
+            grid-template-columns: repeat(1,1fr);
+            padding: 5px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .half-width h1{
+            width: 100%;
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+            
+        }
+        .half-width p{
+            width: 95%;
+            font-size: 10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .container .half-width .link-button a{
+            width: 100%;
+            margin: 0;
+            padding: 5px 15px;
+            align-items: center;
+            justify-content: center;
+        }
+        .half-width img{
+            width: 90%;
+            height: 320px;
+        }
+        
+        .mid-container-section{
+            width: 100%;
+        }
+        .mid-container{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .blog-container{
+            grid-template-columns: repeat(1,1fr)
+        }
+        .blog-container .blog{
+            width: 100%; 
+        }
+        .blog-container .blog img{
+            width: 300px;
+            height: 175px;
+        }
+        .mid-container .button-container{
+            background-color: white;
+        }
+        .button-container .link-button{
+            background-color: white!important; 
+        }
+        .button-container a{
+            box-shadow: 2px 2px 2px rgba(211, 211, 211, 0.486);
+        }
+        .blog-container .blog h3{
+            font-size: 11px;
+        }
+        
+        .blog-container .all-group img{
+            padding-top: 50px;
+            width: 100%;
+        }
+        .footer .footer-link{
+            flex-direction: column;
+            align-items: center;
+        }
+     }
+     /* ---------------------------------
+     Tab Veiw Media query style section 
+     ------------------------------------ */
+     @media screen and (min-width:668px) and (max-width:1000px) {
+        .top-section{
+            margin-bottom: 0;
+        }
+        .container{
+            width: 100%;
+            display: flex;  
+            
+        }
+        
+        .half-width{
+            width: 50%;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .half-width h1{
+            width: 100%;
+            font-size: 35px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+            
+        }
+        .half-width p{
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .half-width a{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .half-width img{
+            width: 100%;
+        }
+        .mid-container-section{
+            width: 100%;
+        }
+        .mid-container{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .blog-container{
+            width: 100%;
+            grid-template-columns: repeat(2,1fr);
+            padding-top:50px;
+            
+        }
+        .blog-container .blog{
+            width: 90%; 
+        }
+        .blog-container .blog img{
+            width: 100%;
+            height: 175px;
+        }
+        .mid-container .button-container{
+            width: 100%;
+            height: 0;
+            margin: 20px;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            
+        }
+        .button-container .link-button{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white!important; 
+            
+        }
+        .mid-container .button-container a{
+            margin: 0;
+            box-shadow: 2px 2px 2px rgba(211, 211, 211, 0.486);
+        }
+        .blog-container .blog h3{
+            font-size: 11px;
+        }
+
+        
+        .blog-container .all-group img{
+            padding-top: 50px;
+            width: 750px;
+            justify-content: center;
+            align-items: center;
+        }
+        .tab-only{
+            display: flex;
+            width: 100%;
+            padding-bottom: 50px;
+            justify-content: center;
+            align-items: center;
+           }
+            
+            .tab-only .tab-button a{
+            display: block;
+            color: rgb(255, 255, 255);
+            background-color: tomato;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: 900;
+            }
+        .footer .footer-link{
+            width: 90%;
+            display: inline-flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+     }
